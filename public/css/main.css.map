@@ -1,0 +1,22 @@
+{
+    "version": 3,
+    "mappings": ";AUAA;;;;;;;;;;;;;;;;;;;;;;;;;;;EA2BE;AAEF,iBAAiB;AAEjB,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,OAAO;CACtB;;AAED,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;CACnB;;AAED,AAAA,IAAI,CAAA;EACA,SAAS,EAAE,MAAM;EACjB,UAAU,EAAE,UAAU;EACtB,WAAW,EAAE,qBAAqB;CAErC",
+    "sources": [
+        "../../../sass/main.scss",
+        "../../../sass/abstract/_mixins.scss",
+        "../../../sass/abstract/_utilities.scss",
+        "../../../sass/abstract/_variables.scss",
+        "../../../sass/pages/_index.scss",
+        "../../../sass/pages/_contact.scss",
+        "../../../sass/layouts/_header.scss",
+        "../../../sass/layouts/_section.scss",
+        "../../../sass/layouts/_footer.scss",
+        "../../../sass/base/_animation.scss",
+        "../../../sass/base/_base.scss",
+        "../../../sass/base/_typography.scss",
+        "../../../sass/components/_buttons.scss",
+        "../../../sass/components/_cards.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
