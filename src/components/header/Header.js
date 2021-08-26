@@ -12,9 +12,7 @@ import LogoNan from '../../assets/images/logo-nan.png'
 import Menu from '../../assets/images/icon/menu.svg'
 
 class Header extends Component {
-    constructor(props) {
-        super(props);
-    }
+
 
 
     handleLogout = async () => {
@@ -23,7 +21,7 @@ class Header extends Component {
     }
 
     render() {
-        
+
         const { title } = this.props
         return (
             (

@@ -77,6 +77,7 @@ export const updateAgendaService = (data) => {
                 id,
                 finalData
             )
+            console.log(response)
         }
         catch (e) {
             console.log(e)

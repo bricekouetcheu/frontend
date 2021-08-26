@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'
-import {Link, Redirect} from 'react-router-dom'
+import { Redirect} from 'react-router-dom'
 
 //Components
 import Header from '../../components/header/Header'
@@ -53,7 +53,7 @@ class UpdateActivite extends Component {
         
     }
     render() {
-        const {date_activite,heure_debut,heure_fin,art,lecture,remarque,groupe,success,id} = this.state
+        const {date_activite,heure_debut,heure_fin,art,lecture,remarque,groupe,success} = this.state
         let redirect = null
         if(success){
             redirect = <Redirect to="/activity" />

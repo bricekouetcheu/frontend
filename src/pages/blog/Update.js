@@ -49,7 +49,7 @@ class UpdateBlog extends Component {
     }
 
     render() {
-        const {title,description,image,success} = this.state
+        const {title,description,success} = this.state
         let redirect = null
         if(success){
             redirect = <Redirect to="/blog" />

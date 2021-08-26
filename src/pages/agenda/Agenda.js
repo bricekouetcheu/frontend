@@ -14,9 +14,6 @@ import { Loader } from '../../components/loader/Loader'
 
 class Agenda extends Component {
 
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.props.agendaListService()
@@ -41,12 +38,18 @@ class Agenda extends Component {
                         <div className="agenda">
                             <div className="activite__title">
                                 <h2 className="second-title mb-4">Agenda</h2>
-                                {this.props.auth.username[0].is_directrice ?
-                                    <Link to="/add-agenda"><button type="button"
-                                        className="btn-default btn-green">Ajouter</button>
-                                    </Link>
+                                {this.props.auth.token ?
+                                    <div>
+                                        {this.props.auth.username[0].is_parent ?
+                                            null :
+                                            <Link to="/add-agenda"><button type="button"
+                                                class="btn-default btn-green text-right">Ajouter</button>
+                                            </Link>
+                                        }
+                                    </div>
                                     : null
                                 }
+
                             </div>
                             {this.props.agenda.agendas.map((item, index) => {
                                 return (

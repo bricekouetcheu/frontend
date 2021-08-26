@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 class Sidebar extends Component {
     render() {
@@ -28,9 +28,7 @@ class Sidebar extends Component {
                         <li>Contact</li>
                     </Link>
                 </ul>
-                <a href="#" class="btn-sidebar">
-                    <button type="button" class="btn-orange btn-orange-width100">Connexion</button>
-                </a>
+
             </nav>
         );
     }

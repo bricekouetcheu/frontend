@@ -33,9 +33,6 @@ import Horaires from './pages/horaires/Horaires'
 
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-  }
   componentDidMount() {
     this.props.isUserAuthenticated()
   }
@@ -55,8 +52,8 @@ class App extends Component {
         <Route path="/add-blog" component={AjoutBLog} exact />
         <Route path="/blog-update/:slug" component={UpdateBlog} exact />
         <Route path="/activity" component={Activites} exact />
-          <Route path="/add-activity" component={AjoutsActivite} exact />
-          <Route path='/activity-update/:id' component={UpdateActivite} exact />
+        <Route path="/add-activity" component={AjoutsActivite} exact />
+        <Route path='/activity-update/:id' component={UpdateActivite} exact />
         <Route path="/contacts" component={Contacts} exact />
         <Route path="/address" component={Address} exact />
         <Route path="/horaires" component={Horaires} exact />

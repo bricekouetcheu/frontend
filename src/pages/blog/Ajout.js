@@ -42,7 +42,7 @@ class AjoutBLog extends Component{
     }
 
     render(){
-        const {title,description,image,success} = this.state
+        const {title,description,success} = this.state
         
         let redirect = null
         if(success){

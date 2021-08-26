@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom'
 import { connect } from 'react-redux'
 
 
@@ -17,10 +16,6 @@ import { Loader } from '../../components/loader/Loader'
 import C1 from '../../assets/images/c1.jpeg'
 
 class Albums extends Component {
-
-    constructor(props) {
-        super(props)
-    }
 
     componentDidMount() {
         this.props.albumListService()

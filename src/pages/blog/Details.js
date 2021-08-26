@@ -7,7 +7,7 @@ import Header from '../../components/header/Header'
 import Sidebar from '../../components/sidebar/Sidebar'
 import {Footer} from '../../components/footer/Footer'
 
-import Galerie2 from '../../assets/images/photo/galerie-2.jpg'
+
 import { blogDetailService } from '../../store/actions/blog';
 
 class BlogDetails extends Component {
@@ -35,7 +35,7 @@ class BlogDetails extends Component {
                         <div class="blog">
                             <h2 class="second-title mb-4">Blog detail</h2>
                             <div class="blog-img">
-                                <img src={image} alt="image" />
+                                <img src={image} alt="description" />
                             </div>
                             <div class="blog-text">
                                 <h3 class="third-title">{titre}</h3>

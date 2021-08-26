@@ -42,12 +42,18 @@ class Activites extends Component {
                         <div className="activite">
                             <div className="activite__title">
                                 <h2 className="second-title mb-4">Activités</h2>
-                                {this.props.auth.username[0].is_parent ?
-                                    
-                                   
-                                    null: <Link to="/add-activity"><button type="button"
-                                    className="btn-default btn-green">Ajouter</button></Link>
+                                {this.props.auth.token ?
+                                    <div>
+                                        {this.props.auth.username[0].is_parent ?
+                                            null:
+                                            <Link to="/add-activity"><button type="button"
+                                                class="btn-default btn-green text-right">Ajouter</button>
+                                            </Link>
+                                        }
+                                    </div>
+                                    : null
                                 }
+
                             </div>
                             <div class="row">
                                 {this.props.activite.activites.map((item, index) => {

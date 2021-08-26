@@ -39,7 +39,6 @@ class UpdateAgenda extends Component {
             date_evenement,
             titre_evenement,
             description,
-            date_evenement,
             heure,
         }
         await this.props.updateAgendaService(data)

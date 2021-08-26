@@ -24,7 +24,7 @@ class VueAgenda extends Component {
     }
 
     render() {
-        const {id,date_evenement,titre_evenement,description,date_add,date_upd,heure} = this.props.agenda.agenda
+        const {id,date_evenement,titre_evenement,description,heure} = this.props.agenda.agenda
         return (
             <div className="body-main">
                 {/* Header */}
