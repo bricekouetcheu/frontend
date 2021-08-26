@@ -40,11 +40,11 @@ class Agenda extends Component {
                                 <h2 className="second-title mb-4">Agenda</h2>
                                 {this.props.auth.token ?
                                     <div>
-                                        {this.props.auth.username[0].is_parent ?
-                                            null :
+                                        {this.props.auth.username[0].is_directrice?
+                                            
                                             <Link to="/add-agenda"><button type="button"
                                                 class="btn-default btn-green text-right">Ajouter</button>
-                                            </Link>
+                                            </Link> : null
                                         }
                                     </div>
                                     : null
