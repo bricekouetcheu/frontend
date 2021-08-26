@@ -18,7 +18,7 @@ import AlbumsGalerie from './pages/albums/AlbumsGalerie'
 import AjoutAlbum from './pages/albums/Ajout'
 
 
-import Blog from './pages/blog/Blog'
+import Blog from './pages/blog/blog'
 import BlogDetails from './pages/blog/Details'
 import AjoutBLog from './pages/blog/Ajout'
 import UpdateBlog from './pages/blog/Update'
